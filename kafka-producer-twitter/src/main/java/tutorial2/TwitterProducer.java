@@ -1,4 +1,4 @@
-package com.github.shaoeric.kafka.tutorial2;
+package tutorial2;
 
 import com.google.common.collect.Lists;
 import com.twitter.hbc.ClientBuilder;
@@ -24,7 +24,10 @@ import java.util.concurrent.TimeUnit;
 public class TwitterProducer {
 
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
-
+    String consumerKey = ApiToken.consumerKey;
+    String consumerSecret = ApiToken.consumerSecret;
+    String token = ApiToken.token;
+    String secret = ApiToken.secret;
     List<String> terms = Lists.newArrayList("bitcoin", "usa", "china", "sport", "trump");
 
     public TwitterProducer(){}
