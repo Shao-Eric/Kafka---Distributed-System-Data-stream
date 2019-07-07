@@ -24,10 +24,7 @@ import java.util.concurrent.TimeUnit;
 public class TwitterProducer {
 
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
-    String consumerKey = "SOjoCBHzaROO1daf5PixFGsI3";
-    String consumerSecret = "a6byixdNjH5sKKVRKYv1Anu5Zx7PDUGYGGTxdlEOvFmYKh1w4Z";
-    String token = "1147587560216154117-fHyJ3JIBBXWN4f00JI5jsSsUSmnPAu";
-    String secret = "IYPuRtigRZ2Dnz8vlOILtQRR3PLX2lfvpjYDR54moWZW7";
+
     List<String> terms = Lists.newArrayList("bitcoin", "usa", "china", "sport", "trump");
 
     public TwitterProducer(){}
